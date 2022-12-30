@@ -1,2 +1,4 @@
 # detect_task
 检测设备是否离线任务
+不支持while1,暂时只支持freertos
+使用者仅需将communication_frame_rate_update放入通信设备的通信函数中，再创建一个任务(弱定义)，将detect_task加入即可
